@@ -1,0 +1,7 @@
+1) Na uvodní stránce upravit wrap contejneru při min.wight 780 a více
+2) Na úvodní stránce napozicovat obrázky, aby vypadaly lépe
+3) Úvodní lištu při zobrazení na mobilu schovat do hamburgeru
+4) Vytvořit hru Poznej plemeno
+5) U hry Kdoskoho se odkazuje přímo na hra.html, místo na index.html, nevím proč
+6) Dopisovat plemena
+7) Zajímavosti + kavarny + ú tulky atd.
