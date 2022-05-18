@@ -1,1 +1,1 @@
-# Encyklopedie-ko-ek
+# Encyklopedie-koček
