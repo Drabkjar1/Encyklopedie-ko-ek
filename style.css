@@ -12,7 +12,7 @@ html {
 body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
-  font-size: 8px;
+  font-size: 16px;
   line-height: 1.8;
 }
 
@@ -22,6 +22,7 @@ body {
   body {
     font-size: 18px;
     padding-top: 0;
+    padding-top: 3rem;
   }
 }
 
@@ -36,6 +37,7 @@ body {
 .header_homepage {
   position: relative;
   height: 100%;
+  padding: 20px 40px;
   width: 100%;
   background: url('images/uvodnisnimek.png');
   background-size: contain;
@@ -48,13 +50,13 @@ body {
 }
 .header_quote {
   font-family: 'Clicker Script', cursive;
-  font-size: 0.8em;
+  font-size: 1.8em;
 }
 
 .header_menu {
-  display: none;
   position: relative;
   min-width: 30%;
+  display: none;
 }
 
 .header_content {
@@ -72,6 +74,11 @@ body {
 @media (min-width: 768px) {
   header {
     margin-top: 0;
+  }
+  .header_menu {
+    position: relative;
+    min-width: 30%;
+    display: block;
   }
 
   .header_menu-buttons {
@@ -258,7 +265,7 @@ body {
 }
 
 .coments {
-  margin-left: 1rem;
+  margin-left: 1.6rem;
   color: #dd93ad;
   font-size: 0.6rem;
   text-shadow: 2px 2px 2px rgb(10, 10, 10);
@@ -302,5 +309,11 @@ body {
     flex-direction: column;
     justify-content: space-between;
     padding-left: 1.5rem;
+  }
+  .coments {
+    margin-left: 1rem;
+
+    font-size: 1.2rem;
+    text-shadow: 2px 2px 2px rgb(10 10 10);
   }
 }
