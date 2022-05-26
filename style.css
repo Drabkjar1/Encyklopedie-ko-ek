@@ -201,8 +201,9 @@ body {
 }
 
 .breeds {
+  width: 100%;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   color: #fff;
   background-size: cover;
   background-position: center;
@@ -257,7 +258,7 @@ body {
 .small {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 50%;
   background-size: cover;
   min-height: 200px;
   margin-top: 0.1rem;
@@ -299,10 +300,11 @@ body {
     flex-wrap: wrap;
     min-height: 500px;
     background-position: center;
-    width: 50%;
+    width: 100%;
   }
 
   .small {
+    width: 50%;
     background-position: center;
     min-height: 500px;
     display: flex;
