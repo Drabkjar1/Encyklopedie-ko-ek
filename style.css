@@ -16,23 +16,7 @@ body {
   line-height: 1.8;
 }
 
-/* Media query tablet: */
-
-@media screen and (min-width: 768px) {
-  body {
-    font-size: 18px;
-    padding-top: 0;
-    padding-top: 3rem;
-  }
-}
-
-/* Media query PC: */
-
-@media screen and (min-width: 960px) {
-  body {
-    font-size: 18px;
-  }
-}
+/* Styly hlavičky - mobil  */
 
 .header_homepage {
   position: relative;
@@ -71,87 +55,7 @@ body {
 .header_menu-buttons {
   list-style: none;
 }
-@media (min-width: 768px) {
-  header {
-    margin-top: 0;
-  }
-  .header_menu {
-    position: relative;
-    min-width: 30%;
-    display: block;
-  }
 
-  .header_menu-buttons {
-    display: flex;
-    list-style: none;
-    padding: 0;
-    justify-content: space-between;
-  }
-  .header_menu-buttons .styled_link a {
-    padding: 5px 10px;
-  }
-
-  .header_nav {
-    position: relative;
-    z-index: 2;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .header_title {
-    font-size: 3em;
-  }
-
-  .header_title-text {
-    font-size: 1.25em;
-  }
-
-  .header_content {
-    position: relative;
-    margin-top: 15%;
-    z-index: 2;
-  }
-}
-
-@media (min-width: 960px) {
-  .header_homepage .video_wrapper {
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-  }
-
-  .header_homepage .video_wrapper::before {
-    content: '';
-    display: block;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    background: rgb(221, 221, 221);
-    background: linear-gradient(
-      20deg,
-      rgba(221, 221, 221, 0) 66%,
-      rgba(0, 0, 0, 0.5) 100%
-    );
-  }
-
-  .header_homepage .video_wrapper video {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-  }
-
-  .header_menu-buttons .styled_link a {
-    padding: 10px 30px;
-  }
-}
 .styled_link {
   display: inline-block;
 }
@@ -182,11 +86,7 @@ body {
   background-color: #dd93ad;
 }
 
-@media (min-width: 960px) {
-  .styled_link {
-    align-self: flex-end;
-  }
-}
+/* Stylování všech kočiček na homepage - mobil */
 
 .container_title a {
   padding: 10px 10px;
@@ -206,9 +106,22 @@ body {
   flex-wrap: wrap;
   color: #fff;
   background-size: cover;
-  background-position: center;
+
   border-bottom: 1px solid white;
   margin-top: 0.5rem;
+}
+
+/* Styly pro jednotlivé kočičky - mobil */
+
+.small {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-size: cover;
+  background-position: 50% 10%;
+  min-height: 200px;
+  margin-top: 0.1rem;
+  justify-content: space-between;
 }
 .barmska {
   background-image: url('images/barmska.jpg');
@@ -255,15 +168,6 @@ body {
 .thajska {
   background-image: url('images/thajska.jpg');
 }
-.small {
-  display: flex;
-  flex-direction: column;
-  width: 50%;
-  background-size: cover;
-  min-height: 200px;
-  margin-top: 0.1rem;
-  justify-content: space-between;
-}
 
 .coments {
   margin-left: 1.6rem;
@@ -272,16 +176,18 @@ body {
   text-shadow: 2px 2px 2px rgb(10, 10, 10);
 }
 
-@media (min-width: 480px) {
+/* Úzký tablet  */
+
+@media (min-width: 540px) {
   .breeds {
     padding: 0.25rem;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
   }
 
   .small {
     min-height: 200px;
-    width: 100%;
+    width: 50%;
   }
 
   .barmska,
@@ -294,10 +200,61 @@ body {
     border-right: 1px solid white;
   }
 }
+
+/* Media query tablet: */
+
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 18px;
+    padding-top: 0;
+    padding-top: 2rem;
+  }
+}
+@media (min-width: 768px) {
+  header {
+    margin-top: 0;
+  }
+  .header_menu {
+    position: relative;
+    min-width: 30%;
+    display: block;
+  }
+
+  .header_menu-buttons {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: space-between;
+  }
+  .header_menu-buttons .styled_link a {
+    padding: 5px 10px;
+  }
+
+  .header_nav {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header_title {
+    font-size: 3em;
+  }
+
+  .header_title-text {
+    font-size: 1.25em;
+  }
+
+  .header_content {
+    position: relative;
+    margin-top: 15%;
+    z-index: 2;
+  }
+}
+
 @media (min-width: 860px) {
   .breeds {
-    flex-direction: row;
-    flex-wrap: wrap;
     min-height: 500px;
     background-position: center;
     width: 100%;
@@ -314,8 +271,57 @@ body {
   }
   .coments {
     margin-left: 1rem;
-
     font-size: 1.2rem;
     text-shadow: 2px 2px 2px rgb(10 10 10);
+  }
+}
+
+/* Media query PC: */
+
+@media screen and (min-width: 960px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 960px) {
+  .header_homepage .video_wrapper {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .header_homepage .video_wrapper::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: rgb(221, 221, 221);
+    background: linear-gradient(
+      20deg,
+      rgba(221, 221, 221, 0) 66%,
+      rgba(0, 0, 0, 0.5) 100%
+    );
+  }
+
+  .header_homepage .video_wrapper video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .header_menu-buttons .styled_link a {
+    padding: 10px 30px;
+  }
+  .styled_link {
+    align-self: flex-end;
   }
 }
