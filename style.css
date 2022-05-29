@@ -50,7 +50,7 @@ body {
 }
 nav {
   width: 10em;
-  padding: 1rem;
+  padding: 1em;
   background-color: black;
   display: flex;
   flex-direction: column;
@@ -100,6 +100,8 @@ nav {
 }
 
 .styled_link .default {
+  padding: 5px 10px;
+  font-size: 1em;
   background: #dd93ad;
   text-transform: uppercase;
   filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
@@ -120,6 +122,7 @@ nav {
 
 .container_title a {
   padding: 10px 10px;
+
   text-decoration: none;
   color: #dd93ad;
   text-shadow: 2px 2px 2px rgb(10, 10, 10);
@@ -248,35 +251,33 @@ nav {
   header {
     margin-top: 0;
   }
-  .header_menu {
-    /* position: relative; */
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-  }
-  .menu__closed {
-    display: flex;
-  }
-
-  /* .header_menu-buttons {
-    display: flex;
-    padding: 0;
-  } */
-  .header_menu .styled_link a {
-    padding: 5px 10px;
-    font-size: 0.7em;
-  }
-
   .header_nav {
     position: relative;
     z-index: 2;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: baseline;
   }
+  .header_menu {
+    width: 100%;
+    display: inline-block;
+  }
 
+  .menu__closed {
+    display: flex;
+    background-color: transparent;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
   .menu-btn {
     display: none;
+  }
+
+  .header_menu .styled_link a {
+    padding: 5px 10px;
+    margin: 0px 5px;
+    font-size: 0.7em;
   }
 
   .header_title {
