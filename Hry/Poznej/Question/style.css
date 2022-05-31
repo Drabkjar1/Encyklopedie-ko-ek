@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Raleway:wght@802&display=swap');
+* {
+  box-sizing: border-box;
+}
+/* Mobil verze  */
+body {
+  font-family: sans-serif;
+  background-color: blanchedalmond;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header {
+  width: 100vw;
+  height: 250px;
+  color: #f1b938;
+  background-image: url(./pozadi_hra.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+main {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #f1b938;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1,
+h2,
+h3 {
+  font-family: Dancing Script;
+}
+h1 {
+  position: absolute;
+  top: 25%;
+  left: 30px;
+  font-size: 2rem;
+}
+.question__body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+img {
+  width: 70%;
+  margin-bottom: 2rem;
+  border: 2px solid black;
+  border-radius: 15%;
+}
+.options {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+button {
+  height: 3rem;
+
+  color: #f1b938;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  font-weight: 300;
+}
+.option {
+  margin: 0.3rem 0rem;
+}
+.correct__answer,
+.incorrect__answer {
+  width: 90%;
+  margin: 0px 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.curiosity {
+  padding: 0px 20px;
+  border: 2px solid;
+  border-radius: 1rem;
+}
+.correct__answer > h3,
+.incorrect__answer > h3,
+.curiosity > h3 {
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.correct__answer > h3 {
+  text-align: center;
+  color: rgb(6, 184, 6);
+}
+
+.incorrect__answer > h3 {
+  text-align: center;
+  color: red;
+}
+.curiosity > h3 {
+  text-align: left;
+  color: black;
+}
+.next {
+  width: 50%;
+  margin: 1rem 0rem;
+}
+@media (min-width: 540px) {
+  header {
+    height: 300px;
+  }
+  h1 {
+    font-size: 2.5rem;
+    top: 30%;
+  }
+  img {
+    width: 50%;
+  }
+  .correct__answer,
+  .incorrect__answer {
+    width: 70%;
+  }
+  .curiosity {
+    margin: 1rem 0rem;
+  }
+}
+@media (min-width: 750px) {
+  header {
+    height: 400px;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  img {
+    width: 45%;
+  }
+  .question__body {
+    width: 70%;
+  }
+  .options {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .option {
+    width: 30%;
+    margin: 0rem 0.5rem;
+  }
+} ;

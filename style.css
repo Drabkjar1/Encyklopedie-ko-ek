@@ -81,10 +81,6 @@ nav {
   cursor: pointer;
 }
 
-.menu__closed {
-  display: none;
-}
-
 .styled_link {
   display: inline-block;
 }
