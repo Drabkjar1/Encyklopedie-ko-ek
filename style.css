@@ -21,7 +21,7 @@ body {
 .header_homepage {
   position: relative;
   height: 100%;
-  padding: 20px 40px;
+  padding: 20px 10px;
   width: 100%;
   background: url('images/uvodnisnimek.png');
   background-size: contain;
@@ -34,12 +34,29 @@ body {
 }
 .header_quote {
   font-family: 'Clicker Script', cursive;
-  font-size: 1.8em;
+  font-size: 1em;
 }
-
+.header_nav {
+  width: 100%;
+  padding: 0px 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
 .header_menu {
-  position: relative;
-  min-width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+nav {
+  width: 10em;
+  padding: 1em;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.menu__closed {
   display: none;
 }
 
@@ -52,8 +69,16 @@ body {
 .header_quote {
   text-shadow: 1px 1px 2px rgba(214, 23, 103, 0.5);
 }
-.header_menu-buttons {
-  list-style: none;
+
+.menu-btn {
+  width: 3rem;
+  height: 3rem;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  background-image: url('./images/menu.png');
+  background-size: contain;
+  cursor: pointer;
 }
 
 .styled_link {
@@ -61,8 +86,9 @@ body {
 }
 
 .styled_link a {
-  padding: 10px 30px;
-  margin: 10px;
+  font-size: 0.7em;
+  padding: 5px;
+  margin: 5px 0px;
   border-radius: 3px;
   display: block;
   text-decoration: none;
@@ -70,6 +96,8 @@ body {
 }
 
 .styled_link .default {
+  padding: 5px 10px;
+  font-size: 1em;
   background: #dd93ad;
   text-transform: uppercase;
   filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
@@ -90,6 +118,7 @@ body {
 
 .container_title a {
   padding: 10px 10px;
+
   text-decoration: none;
   color: #dd93ad;
   text-shadow: 2px 2px 2px rgb(10, 10, 10);
@@ -179,6 +208,10 @@ body {
 /* Úzký tablet  */
 
 @media (min-width: 540px) {
+  .header_homepage {
+    padding: 20px 5px;
+  }
+
   .breeds {
     padding: 0.25rem;
     display: flex;
@@ -214,28 +247,33 @@ body {
   header {
     margin-top: 0;
   }
-  .header_menu {
-    position: relative;
-    min-width: 30%;
-    display: block;
-  }
-
-  .header_menu-buttons {
-    display: flex;
-    list-style: none;
-    padding: 0;
-    justify-content: space-between;
-  }
-  .header_menu-buttons .styled_link a {
-    padding: 5px 10px;
-  }
-
   .header_nav {
     position: relative;
     z-index: 2;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
+    align-items: baseline;
+  }
+  .header_menu {
+    width: 100%;
+    display: inline-block;
+  }
+
+  .menu__closed {
+    display: flex;
+    background-color: transparent;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .menu-btn {
+    display: none;
+  }
+
+  .header_menu .styled_link a {
+    padding: 5px 10px;
+    margin: 0px 5px;
+    font-size: 0.7em;
   }
 
   .header_title {
@@ -254,6 +292,12 @@ body {
 }
 
 @media (min-width: 860px) {
+  .header_nav {
+    padding: 0px 10px;
+  }
+  .header_quote {
+    font-size: 1.2em;
+  }
   .breeds {
     min-height: 500px;
     background-position: center;
@@ -318,8 +362,16 @@ body {
     object-fit: cover;
   }
 
-  .header_menu-buttons .styled_link a {
-    padding: 10px 30px;
+  .header_nav {
+    padding: 0px 15px;
+  }
+  .header_quote {
+    font-size: 1.4em;
+  }
+
+  .header_menu .styled_link a {
+    font-size: 0.9em;
+    padding: 5px 10px;
   }
   .styled_link {
     align-self: flex-end;
