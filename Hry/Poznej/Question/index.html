@@ -8,7 +8,6 @@
     <title>Poznej plemeno</title>
   </head>
   <body>
-    <!-- Celou tuto stránku vyrobí reactová komponenta, zatím bez props - ty budou přijímat komponenty, které v ní budou obsažené -->
     <header>
       <h1>Poznej plemeno</h1>
     </header>
@@ -16,19 +15,17 @@
       <h2>Jaké plemeno je na obrázku?</h2>
       <div class="question__body">
         <h3>1/10</h3>
-        <!-- Obsah elementu question__body se bude měnit(vyrobí ho reactová komponenta), h1 bude zůstávat stále stejný -->
-        <img src="norwegian-forest-cat.webp" alt="norská lesní" />
-        <!-- Možnosti a obrázek se ukáží při prvním načtení otázky. Bude to vyžadovat referenční proměnnou, která určí, jestli už otázka byla zodpovězena nebo ne(opět true nebo false). Defaultní hodnota bude false. Při kliknutí na možnost se tato referenční hodnota změní na true a podle toho, na kterou odpověď hráč klikne se místo možností zobrazí buď zajímavost nebo hláška špatná odpověď. V obou případech bude pod tím tlačítko "Pokračovat", které hráče přesměruje na další otázku a hodnota referenční promněnné se znova změní na false.  -->
+
+        <img src="images/cat_1.webp" alt="norská lesní" />
 
         <div class="options">
-          <!-- Tlačítka vyrobí komponenta. Jako props bude přijímat hodnotu referenční proměnné pro určení třídy a plemeno kočičky. Budou mít buď třídu isCorrect nebo notCorrect podle hodnoty referenční proměnné(třídu tlačítka nastaví ternární operátor), která bude zatím natvrdo napsaná pro každou možnost a u každé otázky ve zdroji dat (aby správná odpověď nebyla pořád jenom a). Když bychom dokázaly vymyslet náhodné generování správné možnosti, bude to skvělý. Když uživatel odpoví správně, zobrazí se zajímavost a pokračuje na další otázku. Když odpoví špatně, zobrazí se hláška špatná odpověď a také se pokračuje na další otázku. Keyprop bude možnost a,b,c.    -->
           <button class="option notCorrect" id="a">a) Birma</button>
           <button class="option isCorrect" id="b">b) Norská lesní kočka</button>
           <button class="option notCorrect" id="c">c) Sphynx</button>
         </div>
-        <p>Toto se zobrazí v případě správné odpovědi</p>
+
         <div class="correct__answer">
-          <h3>Správná odpověď</h3>
+          <img src="images/isCorrect.svg" alt="tick" />
           <div class="curiosity">
             <h3>Víte, že?</h3>
             <p>
@@ -40,9 +37,9 @@
           </div>
           <button class="next">Pokračovat</button>
         </div>
-        <p>Toto se zobrazí v případě špatné odpovědi</p>
+
         <div class="incorrect__answer">
-          <h3>Špatná odpověď</h3>
+          <img src="images/notCorrect.svg" alt="tick" />
           <button class="next">Pokračovat</button>
         </div>
       </div>

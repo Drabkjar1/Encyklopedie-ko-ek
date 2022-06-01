@@ -50,6 +50,12 @@ img {
   border: 2px solid black;
   border-radius: 15%;
 }
+.correct__answer > img,
+.incorrect__answer > img {
+  border: none;
+  height: 5rem;
+  aspect-ratio: 1/1;
+}
 .options {
   display: flex;
   flex-direction: column;
@@ -57,13 +63,13 @@ img {
 }
 button {
   height: 3rem;
-
   color: #f1b938;
   background-color: black;
   border: none;
   border-radius: 5px;
   font-weight: 300;
 }
+
 .option {
   margin: 0.3rem 0rem;
 }
@@ -148,4 +154,22 @@ button {
     width: 30%;
     margin: 0rem 0.5rem;
   }
-} ;
+}
+@media (min-width: 960px) {
+  header {
+    height: 450px;
+  }
+  h1 {
+    font-size: 4rem;
+    margin-left: 8rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  button {
+    font-size: 1.2rem;
+  }
+}
