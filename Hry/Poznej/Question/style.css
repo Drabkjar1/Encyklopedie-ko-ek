@@ -48,7 +48,7 @@ img {
   width: 70%;
   margin-bottom: 2rem;
   border: 2px solid black;
-  border-radius: 15%;
+  border-radius: 30px;
 }
 .correct__answer > img,
 .incorrect__answer > img {
