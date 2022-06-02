@@ -67,7 +67,7 @@ const questions = [
       c: { name: 'Mainská mývalí kočka', correct: true },
     },
     curiosity:
-      'Kvůli její mírné a nekonfliktní povaze a zároveň velikosti se mainské mývalí kočce někdy přezdívá “Něžný obr”.',
+      'Nejdelší kočkou na světě byl mainský kocour Stewie (2005 - 2013) z americké Nevady s délkou 123 cm. Do Guinessovy knihy rekordů byl zapsán v roce 2010.',
   },
   {
     image: 'cat_8.jpg',
