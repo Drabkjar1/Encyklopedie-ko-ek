@@ -122,14 +122,27 @@ nav {
 
   text-decoration: none;
   color: #dd93ad;
-  text-shadow: 2px 2px 2px rgb(10, 10, 10);
+  text-shadow: 1px -4px 0px rgb(10 10 10);
 }
 
 .container_title:hover {
-  font-weight: 400;
+  font-weight: 800;
   letter-spacing: 1px;
+  -webkit-animation: text-animace 0.7s ease-in-out;
+  animation: text-animace 0.7s ease-in-out;
 }
-
+@-webkit-keyframes text-animace {
+  0% {
+    letter-spacing: 1.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .breeds {
   width: 100%;
   display: flex;
@@ -158,11 +171,14 @@ nav {
 }
 
 .sphinx {
-  background-image: url('images/sphinx.jpg');
+  background-image: url('images/sphinx1.jpg');
 }
 
 .bengalska {
   background-image: url('images/bengalská.jpg');
+}
+.britska {
+  background-image: url('images/britska_krátkosrsta1.jpg');
 }
 
 .siamska {
@@ -197,9 +213,6 @@ nav {
 }
 .thajska {
   background-image: url('images/thajska.jpg');
-}
-.britska {
-  background-image: url('images/britska_krátkosrsta1.jpg');
 }
 
 .coments {

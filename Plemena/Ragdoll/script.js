@@ -1,5 +1,3 @@
-'use strict';
-
 const images = document.querySelectorAll('.fotog');
 
 images.forEach((fotog, indx) => {
