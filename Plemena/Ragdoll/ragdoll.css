@@ -20,9 +20,7 @@ body {
   padding: 0;
   margin: auto;
 }
-header .uvod {
-  z-index: 2;
-}
+
 /*hlavička*/
 
 h1 {
@@ -39,33 +37,31 @@ h1 {
 
 header {
   max-width: 100%;
-  max-height: 50%;
+
   background-image: url('./images/ragdoll.jpg');
   background-size: cover;
-  height: auto;
+
   padding: 1rem;
-  -webkit-animation: pohyb-pozadi 5s ease-out both;
-  animation: pohyb-pozadi 5s ease-out both;
-  z-index: 0;
+  -webkit-animation: pohyb-pozadi 4s ease-in reverse;
+  animation: pohyb-pozadi 4s ease-in reverse;
 }
 
 @keyframes pohyb-pozadi {
   0% {
-    -webkit-transform: scale(1) translate(0, 0);
-    transform: scale(1) translate(0, 0);
-    -webkit-transform-origin: 15% 50%;
-    transform-origin: 15% 50%;
+    -webkit-transform: scale(1) translateY(0);
+    transform: scale(1) translateY(0);
+    -webkit-transform-origin: 50% 15%;
+    transform-origin: 50% 15%;
   }
   100% {
-    -webkit-transform: scale(1.25) translate(-20px, 15px);
-    transform: scale(1.25) translate(-20px, 15px);
-    -webkit-transform-origin: left;
-    transform-origin: left;
+    -webkit-transform: scale(1.25) translateY(-20px);
+    transform: scale(1.25) translateY(-20px);
+    -webkit-transform-origin: top;
+    transform-origin: top;
   }
 }
 
 .uvodni {
-  margin-top: 50rem;
   color: #629edb;
   text-align: center;
   text-shadow: 1px 1px 1px rgb(10, 10, 10);
@@ -90,8 +86,6 @@ header {
 
 .kontejner {
   box-shadow: 0.5px 0.5px 7px lightgray;
-  height: 100%;
-  z-index: 2;
 }
 
 /*menu*/
@@ -165,6 +159,8 @@ img {
 
 .foto1 {
   position: relative;
+
+  margin-top: 400px;
 }
 
 .fotonazev {
@@ -401,7 +397,6 @@ footer a {
   .uvodniblok {
     display: flow-root;
   }
-
   .prvni {
     float: right;
     width: 70%;
