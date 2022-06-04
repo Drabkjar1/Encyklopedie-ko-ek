@@ -23,7 +23,6 @@ for (let i = 0; i < buttons.length; i++) {
   });
 }
 
-// 5. uloha
 const boardSize = 10;
 
 const getPosition = (field) => {
