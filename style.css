@@ -25,7 +25,7 @@ body {
   padding: 20px 10px;
   width: 100%;
   background: url('images/uvodnisnimek.png');
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   text-align: center;
@@ -57,6 +57,7 @@ nav {
   flex-direction: column;
   justify-content: flex-start;
 }
+
 .menu__closed {
   display: none;
 }
@@ -81,7 +82,19 @@ nav {
   background-size: contain;
   cursor: pointer;
 }
-
+.menu-btn-closed {
+  width: 1.6rem;
+  height: 1.6rem;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  background-image: url('./images/menu-closed.png');
+  background-size: contain;
+  cursor: pointer;
+}
+.header_content_nonvisible {
+  display: none;
+}
 .styled_link {
   display: inline-block;
 }
