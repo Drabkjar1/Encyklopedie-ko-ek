@@ -4,11 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <script src="script.js" defer></script>
     <script type="text/javascript" src="https://api.mapy.cz/loader.js"></script>
     <script type="text/javascript">
       Loader.load();
     </script>
+
     <link rel="stylesheet" href="style.css" />
     <title>Kavárny</title>
   </head>
@@ -23,20 +31,117 @@
     </header>
 
     <main>
-      <div class="cafe">
-      <h2>Kočičí kavárna na Smíchově</h2>
-      <p>
-        Patří mezi oblíbené kavárny. Zákazníci uvádí, že všech 9 koček je velmi
-        přátelské a mazlivé povahy. Kavárna se nachází na ulici Vodní 567/7 15000 Praha, Smíchov.
-        Při krásném počasí lze využít i přilehlou venkovní zahrádku.
+      <h2 class="linka">Kočičí kavárna na Smíchově</h2>
+      <p class="popis">
+        V kavárně bydlí celkem 11 kočiček, na které můžete přispět zakoupením
+        čehokoliv v kavárně. Můžete si zde dát mnoho druhů kávy, čokoládu,
+        domácí limonády, dezerty a dokonce i jídla, např. buchtičky se šodó.
+        Prodávají se zde suvenýry s kočičkami, třeba ponožky, tašky, roušky,
+        kalendáře s fotkami zdejších koček a mnohé další. Na konci menu je i
+        seznam všech zdejších koček, kde je uvedeno jejich jméno, rasa, stáří a
+        co se jim líbí a co ne. V kavárně se dá posedět jen ve vnitřníchch
+        prostorech. Také je tu balkónek, ve kterém rády sedají některé kočky a
+        pozorují okolí. Vše je zde kočičkách přizpůsobeno, aby se zde cítili
+        dobře. Mají tu hezké domečky (na zemi, ve výšce, na oknech), které
+        dělají kavárnu útulnou.
       </p>
 
-      <button class = "kavarny" a href = "https://www.facebook.com/kocicicikavarna/">
-        Web kavárny</a>
-      </button>
+      <div class="cafe">
+        <div
+          id="msmichov"
+          style="width: 500px; height: 350px; margin-top: 10px"
+        ></div>
+        <div class="container">
+          <h2>KONTAKTNÍ ÚDAJE:</h2>
+          <span>Adresa:</span>
+          <p>
+            Vodní 567/7, Praha 5<br />150 00<br /><br />
+            iherak@seznam.cz<br />
+            +420 602 443 465<br /><br />
+            Po-NE 12:00 - 21:00
+          </p>
 
-      <div id="m" style="width:500px; height:350px; margin-top:10px"></div>
-    </div>
+          <div class="social">
+            <a
+              href="
+      www.facebook.com/kocicicikavarna"
+              target="_blank"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/accounts/login/?next=/kocici__kavarna"
+              target="_blank"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a
+              href="https://www.facebook.com/332042793662823/videos/4660226337415516"
+              target="_blank"
+              ><i class="fa-brands fa-youtube"></i
+            ></a>
+          </div>
+
+          <button class="rezervace">
+            <a
+              href="https://www.facebook.com/messages/t/332042793662823"
+              target="_blank"
+            >
+              <span class="button-text">Rezervujte si místo</span></a
+            >
+          </button>
+        </div>
+      </div>
+
+      <h2 class="linka">Kavárna Kočičí Praha</h2>
+      <p class="popis">
+        Kavárna Kočičí Praha je malým rodinným podnikem a nachází se přímo v
+        samotném srdci pražského Starého města. Pro zákazníky jsme poprvé
+        otevřeli dveře v listopadu 2014. Jsme originální kočičí kavárnou, která
+        následuje trendy původních japonských zvířecích kaváren, které úspěšně
+        baví návštěvníky z celého světa již desítky let. V našich prostorách
+        bydlí devět kočičích terapeutů, kteří se starají o všechny příchozí
+        zákazníky. Cílem kočičí kavárny je poskytnout našim zákazníkům příjemné
+        relaxační místo, kde si můžou vychutnat skvělou kávu a dorty (s kočkou).
+      </p>
+      <div class="cafe">
+        <div
+          id="mmichalska"
+          style="width: 500px; height: 350px; margin-top: 10px"
+        ></div>
+
+        <div class="container">
+          <h2>KONTAKTNÍ ÚDAJE:</h2>
+          <span>Adresa:</span>
+          <p class="adresa">
+            Michalská 430/3, Praha 1<br />110 00<br /><br />info@kavarnakocici.cz<br />+420
+            223 008 284<br /><br />
+            NE-ČT 11:00 - 20:00<br />
+            PÁ-SO 11:00 - 21:00
+          </p>
+
+          <div class="social">
+            <a href="https://www.facebook.com/kavarnakocici/" target="_blank"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a href="https://www.instagram.com/kavarna_kocici/" target="_blank"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a
+              href="https://www.youtube.com/channel/UCQuVt-MZxUINIJ5t-mNqS9w?view_as=subscriber"
+              target="_blank"
+              ><i class="fa-brands fa-youtube"></i
+            ></a>
+          </div>
+
+          <button class="rezervace">
+            <a
+              href="http://www.kavarnakocici.cz/reserve/reserve_1.php"
+              target="_blank"
+            >
+              <span class="button-text">Rezervujte si místo</span></a
+            >
+          </button>
+        </div>
+      </div>
     </main>
   </body>
 </html>

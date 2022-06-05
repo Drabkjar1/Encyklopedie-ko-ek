@@ -12,11 +12,11 @@
 */
 
 body {
-  background-color: #f5f5f5;
+  background-color: #cec7c7;
   font-family: 'Kalam', cursive;
   font-size: 20px;
   line-height: 1.6;
-  color: rgb(101, 92, 92);
+  color: rgb(60, 40, 40);
   text-align: center;
   margin: 0;
   padding: 0;
@@ -62,7 +62,13 @@ h2 {
   h2 {
     font-size: 1.8rem;
   }
+  .cafe {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
 }
+
 @media screen and (min-width: 960px) {
   main {
     margin: 2rem;
@@ -86,4 +92,53 @@ h2 {
   h2 {
     font-size: 2.5rem;
   }
+  .popis {
+    columns: 3;
+  }
+}
+.cafe .social {
+  margin-top: 15px;
+}
+.cafe .social a {
+  font-size: 40px;
+  margin: 0 10px;
+}
+.cafe .social i.fa-facebook {
+  color: #1877f2;
+}
+.cafe .social i.fa-instagram {
+  color: #e4405f;
+}
+.cafe .social i.fa-youtube {
+  color: #cd201f;
+}
+.cafe .social a:hover i.fa-facebook {
+  color: #1877f2;
+}
+.cafe .social a:hover i.fa-instagram {
+  color: #e4405f;
+}
+.cafe .social a:hover i.fa-youtube {
+  color: #cd201f;
+}
+.linka {
+  color: rgb(124, 62, 17);
+  border-bottom: 4px solid rgb(124, 62, 17);
+  display: inline-block;
+  padding-bottom: 10px;
+}
+.container {
+  color: rgb(124, 62, 17);
+}
+button {
+  margin: 2.6rem;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  background-color: rgb(124, 62, 17);
+  width: 13rem;
+  height: 3.5rem;
+}
+button a {
+  color: white;
+  font-family: 'Dancing+Script', cursive;
 }
