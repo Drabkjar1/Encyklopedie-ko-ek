@@ -1,0 +1,7 @@
+root {
+  --color-primary: #407c0a;
+  --color-secondary: #335218;
+}
+header {
+  background-image: url('./images/Ruska1.jpg');
+}
