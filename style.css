@@ -140,21 +140,11 @@ nav {
 
 .container_title:hover {
   font-weight: 800;
-  letter-spacing: 1px;
-  -webkit-animation: text-animace 0.7s ease-in-out;
-  animation: text-animace 0.7s ease-in-out;
 }
-@-webkit-keyframes text-animace {
-  0% {
-    letter-spacing: 1.5em;
-    opacity: 0;
-  }
-  40% {
-    opacity: 0.6;
-  }
-  100% {
-    opacity: 1;
-  }
+.container_title a:hover {
+  color: #fff;
+  text-shadow: 1px -4px 0px #020202;
+  font-size: 1.3em;
 }
 .breeds {
   width: 100%;
