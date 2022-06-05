@@ -76,8 +76,8 @@ header {
     transform-origin: center;
   }
   100% {
-    -webkit-transform: scale(1) translateX(-40px);
-    transform: scale(1) translateX(-40px);
+    -webkit-transform: scale(1) translateX(-30px);
+    transform: scale(1) translateX(-30px);
     -webkit-transform-origin: right;
     transform-origin: right;
   }
