@@ -12,18 +12,15 @@
       <h1>Poznej plemeno</h1>
     </header>
     <main>
-      <h2>Jaké plemeno je na obrázku?</h2>
-      <div class="question__body">
-        <h3>1/10</h3>
+      <div id="content">
+        <div class="question__body">
+          <h2>Jaké plemeno je na obrázku?</h2>
+          <h3 id="numberOfQuestion"></h3>
 
-        <img src="images/cat_1.webp" alt="kočka" />
+          <img src="" alt="kočka" id="cat" />
 
-        <div class="options">
-          <button class="option" id="a">a) Birma</button>
-          <button class="option" id="b">b) Norská lesní kočka</button>
-          <button class="option" id="c">c) Sphynx</button>
+          <div class="options"></div>
         </div>
-
         <div class="correct__answer">
           <img src="images/isCorrect.svg" alt="tick" />
           <div class="curiosity">
@@ -45,4 +42,5 @@
       </div>
     </main>
   </body>
+  <script src="script.js" type="module"></script>
 </html>
