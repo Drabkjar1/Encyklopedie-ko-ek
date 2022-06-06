@@ -5,3 +5,7 @@
 header {
   background-image: url('./images/ragdoll.jpg');
 }
+
+i {
+  color: var(--color-primary);
+}

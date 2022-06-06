@@ -43,6 +43,16 @@ header {
   padding: 1rem;
   -webkit-animation: pohyb-pozadi 4s ease-in reverse;
   animation: pohyb-pozadi 4s ease-in reverse;
+  display: flex;
+  flex-direction: column;
+}
+
+header a {
+  text-decoration: none;
+  text-align: right;
+}
+i {
+  font-size: 2em;
 }
 
 @keyframes pohyb-pozadi {
@@ -242,6 +252,9 @@ footer a {
     margin-left: 2rem;
     margin-right: 2rem;
   }
+  i {
+    font-size: 3em;
+  }
 
   /*menu*/
   .menu {
@@ -385,6 +398,9 @@ footer a {
     margin-top: 5rem;
     margin-left: 15rem;
     margin-right: 15rem;
+  }
+  i {
+    font-size: 4em;
   }
 
   /*menu */
