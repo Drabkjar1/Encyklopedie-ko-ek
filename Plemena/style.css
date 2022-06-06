@@ -107,11 +107,8 @@ i:hover {
 
 /*menu*/
 
-.menudiv {
-  display: flex;
-}
 .menu {
-  width: 20%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   color: lightgray;
@@ -420,6 +417,9 @@ footer a {
   }
 
   /*menu */
+  .menudiv {
+    display: flex;
+  }
 
   .menu {
     float: left;
