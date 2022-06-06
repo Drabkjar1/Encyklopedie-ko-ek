@@ -1,7 +1,7 @@
 let questions = [
   {
     numb: 1,
-    image: '../images/cat_1.webp',
+    image: 'images/cat_1.webp',
     question: 'Poznáš tuto severskou krásku?',
     answer: 'Norská lesní kočka',
     options: ['Ragdoll', 'Norská lesní kočka', 'Sphynx', 'Bengálská kočka'],
@@ -10,7 +10,7 @@ let questions = [
   },
   {
     numb: 2,
-    image: '../images/cat_2.jpg',
+    image: 'images/cat_2.jpg',
     question: 'Která kočka má ten nejjemnější kožíšek?',
     answer: 'Perská kočka',
     options: ['Perská kočka', 'Něvská maškaráda', 'Ragdoll', 'Habešská kočka'],
@@ -19,7 +19,7 @@ let questions = [
   },
   {
     numb: 3,
-    image: '../images/cat_3.jpg',
+    image: 'images/cat_3.jpg',
     question: 'Která kočka se tváří jako kočičí šlechtic?',
     answer: 'Britská krátkosrstá kočka',
     options: [
@@ -33,7 +33,7 @@ let questions = [
   },
   {
     numb: 4,
-    image: '../images/cat_4.jpg',
+    image: 'images/cat_4.jpg',
     question: 'Které plemeno se na rukou uvolní jak hadrová panenka?',
     answer: 'Ragdoll',
     options: ['Evropská kočka', 'Habešská kočka', 'Ragdoll', 'Sphynx'],
@@ -42,7 +42,7 @@ let questions = [
   },
   {
     numb: 5,
-    image: '../images/cat_5.jpg',
+    image: 'images/cat_5.jpg',
     question: 'Která kočka vypadá jako známý hlídač pyramid?',
     answer: 'Sphynx',
     options: ['Mainská mývalí kočka', 'Sphynx', 'Perská kočka', 'Ragdoll'],
@@ -51,7 +51,7 @@ let questions = [
   },
   {
     numb: 6,
-    image: '../images/cat_6.jpg',
+    image: 'images/cat_6.jpg',
     question: 'Které plemeno bychom našli ve většině českých domácností?',
     answer: 'Evropská kočka',
     options: [
@@ -65,7 +65,7 @@ let questions = [
   },
   {
     numb: 7,
-    image: '../images/cat_7.jpg',
+    image: 'images/cat_7.jpg',
     question: 'Kterému plemenu se přezdívá něžný obr?',
     answer: 'Mainská mývalí kočka',
     options: [
@@ -79,7 +79,7 @@ let questions = [
   },
   {
     numb: 8,
-    image: '../images/cat_8.jpg',
+    image: 'images/cat_8.jpg',
     question: 'Poznáš levharta v kočičí kůži?',
     answer: 'Bengálská kočka',
     options: ['Sphynx', 'Něvská maškaráda', 'Bengálská kočka', 'Barmská kočka'],
@@ -88,7 +88,7 @@ let questions = [
   },
   {
     numb: 9,
-    image: '../images/cat_9.jpg',
+    image: 'images/cat_9.jpg',
     question: 'Které plemeno je známé jako stvoření z mlhy?',
     answer: 'Nebelung',
     options: [
@@ -102,7 +102,7 @@ let questions = [
   },
   {
     numb: 10,
-    image: '../images/cat_10.jpg',
+    image: 'images/cat_10.jpg',
     question: 'Které plemeno pochází ze staroegyptských koček?',
     answer: 'Habešská kočka',
     options: [
