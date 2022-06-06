@@ -50,9 +50,14 @@ header {
 header a {
   text-decoration: none;
   text-align: right;
+  margin: 1rem;
 }
 i {
   font-size: 2em;
+  color: var(--color-primary);
+}
+i:hover {
+  color: var(--color-secondary);
 }
 
 @keyframes pohyb-pozadi {
@@ -398,6 +403,9 @@ footer a {
     margin-top: 5rem;
     margin-left: 15rem;
     margin-right: 15rem;
+  }
+  header a {
+    margin: 2rem;
   }
   i {
     font-size: 4em;
