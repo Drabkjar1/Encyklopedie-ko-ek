@@ -5,3 +5,9 @@
 header {
   background-image: url('./images/Nebelung5.jpg');
 }
+i {
+  color: var(--color-secondary);
+}
+i:hover {
+  color: #655802;
+}

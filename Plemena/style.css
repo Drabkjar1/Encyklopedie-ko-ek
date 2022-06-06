@@ -58,6 +58,8 @@ i {
 }
 i:hover {
   color: var(--color-secondary);
+  transform: scale(1.2);
+  transition: transform 300ms;
 }
 
 @keyframes pohyb-pozadi {
