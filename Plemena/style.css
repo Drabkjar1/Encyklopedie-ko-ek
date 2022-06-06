@@ -78,7 +78,7 @@ i:hover {
   }
 }
 
-.uvodnimenu {
+.uvodni {
   color: var(--color-primary);
   text-align: center;
   text-shadow: 1px 1px 1px rgb(10, 10, 10);
@@ -134,7 +134,7 @@ li {
   justify-content: center;
 }
 
-.uvodni {
+.uvodnimenu {
   padding-top: 2rem;
 }
 
@@ -417,7 +417,7 @@ footer a {
   }
 
   /*menu */
-  .menudiv {
+  .uvodnimenu {
     display: flex;
   }
 
