@@ -81,7 +81,9 @@ nav {
   background-image: url('./images/menu.png');
   background-size: contain;
   cursor: pointer;
+  transition: all 0.8s linear;
 }
+
 .menu-btn-closed {
   width: 1.6rem;
   height: 1.6rem;
@@ -97,6 +99,7 @@ nav {
 }
 .styled_link {
   display: inline-block;
+  transition: all 0.8s linear;
 }
 
 .styled_link a {
@@ -107,6 +110,10 @@ nav {
   display: block;
   text-decoration: none;
   color: #fff;
+  transition: all 0.8s linear;
+}
+.styled_link a:hover {
+  transform: scale(1.1);
 }
 
 .styled_link .default {
@@ -136,13 +143,11 @@ nav {
   text-decoration: none;
   color: #dd93ad;
   text-shadow: 1px -4px 0px rgb(10 10 10);
+  transition: all 0.8s linear;
 }
 
-.container_title:hover {
-  font-weight: 800;
-}
 .container_title a:hover {
-  color: #fff;
+  color: rgb(241, 202, 189);
   text-shadow: 1px -4px 0px #020202;
   font-size: 1.3em;
 }
@@ -223,6 +228,11 @@ nav {
   color: #dd93ad;
   font-size: 0.6rem;
   text-shadow: 0.5px 0.5px 0.5px rgb(10, 10, 10);
+  transition: all 0.8s linear;
+}
+.coments:hover {
+  color: rgb(241, 202, 189);
+  font-size: 1.6rem;
 }
 
 /* Úzký tablet  */
