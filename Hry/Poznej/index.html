@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Poznáš plemeno?</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.12.1/css/all.css"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/935fc917da.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script defer src="js/questions.js"></script>
+    <script defer src="js/script.js"></script>
+  </head>
+  <body>
+    <a href="../../index.html"><i class="fa-solid fa-house"></i></a>
+    <div><button class="hrat">Hrát</button></div>
+
+    <div class="uvodni">
+      <div class="pravidla"><span>Pravidla</span></div>
+      <div class="info-list">
+        <div class="info">
+          Jsou malé i velké, hbité i líné! Rozeznáš je od sebe? Zkus si naši hru
+          a ověř si své znalosti !
+        </div>
+      </div>
+      <div class="buttons">
+        <button class="quit">Konec</button>
+        <button class="restart">Pokračovat</button>
+      </div>
+    </div>
+
+    <div class="quiz_box">
+      <header>
+        <div class="title"></div>
+      </header>
+      <section>
+        <div class="image"></div>
+        <div class="que_text"></div>
+        <div class="option_list"></div>
+        <div class="curiosity"></div>
+      </section>
+
+      <footer>
+        <div class="total_que"></div>
+        <button class="next_btn">Další otázka</button>
+      </footer>
+    </div>
+
+    <div class="result_box">
+      <div class="icon">
+        <img src="./images/OIP.jpg" alt="ikona" />
+      </div>
+      <div class="complete_text">Konec kvízu!</div>
+      <div class="score_text"></div>
+      <div class="buttons">
+        <button class="restart">Opakovat kvíz</button>
+        <button class="quit">Konec</button>
+      </div>
+    </div>
+  </body>
+</html>
