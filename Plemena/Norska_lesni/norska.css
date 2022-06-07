@@ -1,0 +1,7 @@
+:root {
+  --color-primary: #70e938;
+  --color-secondary: #42810b;
+}
+header {
+  background-image: url('./images/norska8.jpg');
+}
