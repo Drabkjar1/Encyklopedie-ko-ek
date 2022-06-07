@@ -1,0 +1,8 @@
+:root {
+  --color-primary: #e28708;
+  --color-secondary: #b5710c;
+}
+
+header {
+  background-image: url('./images/barma.jpg');
+}
