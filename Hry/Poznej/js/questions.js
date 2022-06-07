@@ -89,7 +89,7 @@ let questions = [
   {
     numb: 9,
     image: 'images/cat_9.jpg',
-    question: 'Které plemeno je známé jako stvoření z mlhy?',
+    question: 'Název kterého plemene lze přeložit jako stvoření z mlhy?',
     answer: 'Nebelung',
     options: [
       'Nebelung',
