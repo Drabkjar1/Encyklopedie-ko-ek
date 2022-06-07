@@ -41,8 +41,8 @@ header {
   background-size: cover;
 
   padding: 1rem;
-  -webkit-animation: pohyb-pozadi 4s ease-in reverse;
-  animation: pohyb-pozadi 4s ease-in reverse;
+  -webkit-animation: pohyb-pozadi 3s ease-in reverse;
+  animation: pohyb-pozadi 3s ease-in reverse;
   display: flex;
   flex-direction: column;
 }
@@ -83,8 +83,8 @@ i:hover {
   text-align: center;
   text-shadow: 1px 1px 1px rgb(10, 10, 10);
   margin: 0 2rem 2rem 2rem;
-  -webkit-animation: pohyb-textu 5s ease-out both;
-  animation: pohyb-textu 5s ease-out both;
+  -webkit-animation: pohyb-textu 3s ease-out both;
+  animation: pohyb-textu 3s ease-out both;
 }
 @-webkit-keyframes pohyb-textu {
   0% {

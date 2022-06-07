@@ -1,0 +1,7 @@
+:root {
+  --color-primary: #2d6fb1;
+  --color-secondary: #182252;
+}
+header {
+  background-image: url('./images/birma3.jpg');
+}
