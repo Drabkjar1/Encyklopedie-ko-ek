@@ -1,0 +1,7 @@
+:root {
+  --color-primary: #cabf54;
+  --color-secondary: #9a8f30;
+}
+header {
+  background-image: url('./images/Sphynx.jpg');
+}
