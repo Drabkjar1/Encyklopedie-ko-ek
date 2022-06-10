@@ -23,14 +23,14 @@ body {
 /*hlavička*/
 
 h1 {
-  font-family: 'Verdana', sans-serif;
+  font-family: 'Kalam', cursive;
   font-style: oblique 60deg;
   font-size: 60px;
   color: var(--color-primary);
   text-align: center;
   text-shadow: 3px 3px 3px rgb(10, 10, 10);
-  -webkit-animation: pohyb-textu 5s ease-out both;
-  animation: pohyb-textu 5s ease-out both;
+  -webkit-animation: pohyb-textu 2s ease-out both;
+  animation: pohyb-textu 2s ease-out both;
   margin-top: 10rem;
 }
 
@@ -41,8 +41,8 @@ header {
   background-size: cover;
 
   padding: 1rem;
-  -webkit-animation: pohyb-pozadi 3s ease-in reverse;
-  animation: pohyb-pozadi 3s ease-in reverse;
+  -webkit-animation: pohyb-pozadi 2s ease-in reverse;
+  animation: pohyb-pozadi 2s ease-in reverse;
   display: flex;
   flex-direction: column;
 }
@@ -83,8 +83,8 @@ i:hover {
   text-align: center;
   text-shadow: 1px 1px 1px rgb(10, 10, 10);
   margin: 0 2rem 2rem 2rem;
-  -webkit-animation: pohyb-textu 3s ease-out both;
-  animation: pohyb-textu 3s ease-out both;
+  -webkit-animation: pohyb-textu 2s ease-out both;
+  animation: pohyb-textu 2s ease-out both;
 }
 @-webkit-keyframes pohyb-textu {
   0% {
@@ -233,6 +233,7 @@ section.fotogalerie {
 }
 div.fotog {
   height: 430px;
+  position: absolute;
 }
 section.fotogalerie div.fotog img {
   height: 430px;
@@ -321,7 +322,7 @@ footer a {
   }
 
   .foto_1 .fotopopis {
-    position: absolute;
+    /*    position: absolute; */
     bottom: 0;
     right: 1rem;
   }
@@ -341,7 +342,7 @@ footer a {
 
     padding: 0;
     float: left;
-    position: relative;
+    position: absolute;
   }
 
   .fotogalerie img {
