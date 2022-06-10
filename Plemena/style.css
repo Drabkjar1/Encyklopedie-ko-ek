@@ -23,7 +23,6 @@ body {
 /*hlavička*/
 
 h1 {
-  font-family: 'Kalam', cursive;
   font-style: oblique 60deg;
   font-size: 60px;
   color: var(--color-primary);
