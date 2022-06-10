@@ -1,0 +1,7 @@
+:root {
+  --color-primary: #629edb;
+  --color-secondary: #182252;
+}
+header {
+  background-image: url('./images/siamska.jpg');
+}
