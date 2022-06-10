@@ -160,7 +160,6 @@ nav {
   background-size: cover;
 
   border-bottom: 1px solid white;
-  margin-top: 0.5rem;
 }
 
 /* Styly pro jednotlivé kočičky - mobil */
@@ -244,7 +243,6 @@ nav {
   }
 
   .breeds {
-    padding: 0.25rem;
     display: flex;
     flex-wrap: wrap;
   }

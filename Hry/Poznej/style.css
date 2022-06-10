@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Raleway:wght@802&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap);
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
 }
 
 body {
   background-color: black;
-
+  font-family: 'Kalam', cursive;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -47,8 +47,8 @@ body {
 }
 i.fa-solid.fa-house {
   position: absolute;
-  top: 3rem;
-  right: 3rem;
+  top: 2rem;
+  right: 2rem;
   font-size: 2rem;
   color: #b99e5d;
 }
@@ -60,6 +60,7 @@ i.fa-solid.fa-house:hover {
 .hrat {
   margin-top: 5rem;
   border-radius: 3%;
+  font-size: 1.5rem;
   font-weight: 250;
   background-color: #cdae33;
   padding: 1rem 4rem;
@@ -455,9 +456,7 @@ footer button.show {
     background-image: url('images/pozadi_hra.jpg');
   }
   i.fa-solid.fa-house {
-    top: 3rem;
-    right: 7rem;
-    font-size: 4rem;
+    font-size: 3rem;
   }
 }
 @media (min-width: 1400px) {
@@ -470,7 +469,7 @@ footer button.show {
   }
   i.fa-solid.fa-house {
     top: 5rem;
-    right: 12rem;
+    right: 5rem;
     font-size: 4rem;
   }
 }
