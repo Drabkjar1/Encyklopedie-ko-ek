@@ -138,20 +138,20 @@ nav {
 
 /* Stylování všech kočiček na homepage - mobil */
 
-.container_title a {
+.container_title {
   padding: 10px 10px;
-
   text-decoration: none;
   color: #dd93ad;
   text-shadow: 1px -4px 0px rgb(10 10 10);
-  transition: all 0.8s linear;
+  font-size: 2em;
 }
 
-.container_title a:hover {
+/* .container_title:hover {
   color: rgb(241, 202, 189);
   text-shadow: 1px -4px 0px #020202;
-  font-size: 1.3em;
-}
+  font-size: 3em;
+  transition: all 0.8s linear;
+} */
 .breeds {
   width: 100%;
   display: flex;
@@ -167,13 +167,19 @@ nav {
 .small {
   display: flex;
   flex-direction: column;
+  text-decoration: none;
   width: 100%;
   background-size: cover;
-  background-position: 50% 10%;
+  background-position: 50% 20%;
   min-height: 200px;
   margin-top: 0.1rem;
   justify-content: space-between;
 }
+.small:hover {
+  transform: scale(1.05);
+  transition: transform 300ms;
+}
+
 .barmska {
   background-image: url('images/barmska.jpg');
 }
@@ -210,7 +216,7 @@ nav {
 }
 
 .norska {
-  background-image: url('images/norwegian-forest-cat.webp');
+  background-image: url('images/norwegian_forest.jpg');
 }
 .perska {
   background-image: url('images/perská.jpg');
@@ -233,10 +239,10 @@ nav {
   text-shadow: 0.5px 0.5px 0.5px rgb(10, 10, 10);
   transition: all 0.8s linear;
 }
-.coments:hover {
+/* .coments:hover {
   color: rgb(241, 202, 189);
   font-size: 1.6rem;
-}
+} */
 
 /* Úzký tablet  */
 
