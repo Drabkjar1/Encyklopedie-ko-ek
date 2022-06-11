@@ -80,6 +80,7 @@ i:hover {
 .uvodni {
   color: var(--color-primary);
   text-align: center;
+  font-size: 1.3rem;
   text-shadow: 1px 1px 1px rgb(10, 10, 10);
   margin: 0 2rem 2rem 2rem;
   -webkit-animation: pohyb-textu 2s ease-out both;
