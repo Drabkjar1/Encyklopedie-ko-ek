@@ -139,7 +139,8 @@ nav {
 /* Stylování všech kočiček na homepage - mobil */
 
 .container_title {
-  padding: 10px 10px;
+  padding: 5px 10px;
+  margin: 10px 5px;
   text-decoration: none;
   color: #dd93ad;
   text-shadow: 1px -4px 0px rgb(10 10 10);
@@ -233,9 +234,9 @@ nav {
 }
 
 .coments {
-  margin-left: 1.6rem;
+  margin: 0.5rem 1rem;
   color: #dd93ad;
-  font-size: 0.6rem;
+  font-size: 0.9rem;
   text-shadow: 0.5px 0.5px 0.5px rgb(10, 10, 10);
   transition: all 0.8s linear;
 }
@@ -413,5 +414,8 @@ nav {
   }
   .styled_link {
     align-self: flex-end;
+  }
+  .container_title {
+    font-size: 2.5rem;
   }
 }
